@@ -4,7 +4,7 @@ This repo contains a dataset of English words and their pronunciations in [IPA](
 
 Pronunciations for more than 72,000 unique English words are included. Many words have pronunciations for multiple accents, from American to British to Australian.
 
-The source database dump was from [October 20, 2022](https://dumps.wikimedia.org/enwiktionary/20221020/) and the data was prepared on October 22, 2022 using the [wiktionary-english-pronunciations-to-mongo](TODO) Python app. See that project page for more details.
+The source database dump was from [October 20, 2022](https://dumps.wikimedia.org/enwiktionary/20221020/) and the data was prepared on October 22, 2022 using the [wiktionary-english-pronunciations-to-mongo](https://github.com/benwilson34/wiktionary-english-pronunciations-to-mongo) Python app. See that project page for more details.
 
 The data is provided in JSON and CSV formats. Both were exported from a MongoDB collection, so you could import them to Mongo and query or manipulate the data further from there.
 
